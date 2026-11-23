@@ -344,3 +344,11 @@ em { font-style: italic; color: var(--azul); }
   .lead { font-size: 1.08rem; }
   .acoes .btn { flex: 1 1 100%; }
 }
+
+/* Portefólio: projetos reais */
+.projeto__foto { position: relative; display: block; aspect-ratio: 4 / 3; border-radius: var(--raio); overflow: hidden; margin-bottom: 1.1rem; border: 1px solid var(--linha); box-shadow: var(--sombra); }
+.projeto__foto img { width: 100%; height: 100%; object-fit: cover; object-position: top left; transition: transform .4s ease; }
+.projeto__foto:hover img { transform: scale(1.04); }
+.projeto__tag { position: absolute; bottom: .8rem; right: .8rem; background: #fff; color: var(--azul-escuro); font-size: .8rem; font-weight: 800; padding: .2rem .7rem; border-radius: 999px; box-shadow: var(--sombra); }
+.projeto .projeto__link { margin-top: .6rem; }
+.projeto__link a { font-weight: 700; text-decoration: none; border-bottom: 2px solid var(--verde); }
